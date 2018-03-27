@@ -18,5 +18,14 @@ int main() {
 	int numberOfCats = 5;
 	cout << "number of cats " << numberOfCats << endl;
 	cout << value << endl;
+	cout << "please enter your name:";
+	string name;
+	cin >> name;
+	cout << "you have entered :" << name << endl;
+	int age;
+	cout << "please enter your age:";
+	cin >> age;
+
+	cout << "you age is :" << age << endl;
 	return 0;
 }
